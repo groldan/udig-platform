@@ -10,7 +10,8 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  net.refractions.udig.catalog,
  net.refractions.udig.catalog.ui,
- net.refractions.udig.libs
+ net.refractions.udig.libs,
+ net.refractions.udig.project
 Bundle-ActivationPolicy: lazy
 Export-Package: net.refractions.udig.catalog.internal.wfs;x-friends:="net.refractions.udig.catalog.tests.wfs",
  net.refractions.udig.catalog.internal.wfs.ui;x-friends:="net.refractions.udig.context,net.refractions.udig.catalog.tests.wfs",

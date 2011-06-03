@@ -21,4 +21,11 @@
           name="%wizard.name"/>
 
  </extension>
+ <extension
+       point="net.refractions.udig.project.mapInterceptor">
+    <mapOpening
+          class="net.refractions.udig.catalog.internal.wfs.TransactionCommitMessageMapInterceptor"
+          id="net.refractions.udig.catalog.wfs.mapOpeningListener">
+    </mapOpening>
+ </extension>
 </plugin>
